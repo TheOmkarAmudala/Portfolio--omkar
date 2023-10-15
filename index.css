@@ -50,7 +50,10 @@ body{
     font-family: "Roboto", sans-serif;
 }
 .About-text{
-    color: aliceblue;
+    font-size: 25px;
+margin-top: 100px;
+margin-left: 50px;
+margin-right: 50px;
 }
 .des{
     color: white;

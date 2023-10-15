@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+   
+}
+body{
+    background-color: #183D3D;
+   
+    user-select: none;
+    -webkit-user-select: none; 
+}
+
+.About,.portfolio,.contact{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+.logo{
+    display: flex;
+    border: none;
+    cursor: pointer;
+    width: 530px;
+}
+.logo:hover {
+    transition: 0.2s;
+    
+}
+.page2{
+    background-color: #5C8374;
+    height: 500px;
+}
+.nav{
+           
+     display:flex;
+     color: white;
+     padding-top: 10px;
+     margin-bottom: 10px;
+      margin-top: 20px;
+}
+.pic{
+ width: 600px;
+}
+.description{
+    
+   padding-top: 300px;
+    padding-left: 180px;
+    width: 220px;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+}
+.About-text{
+    color: aliceblue;
+}
+.des{
+    color: white;
+    display: inline-block;
+}
+.contact-button{
+    border: 2px solid rgb(4, 13, 18);
+    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+    color: rgb(4, 13, 18);
+    margin-top: 16px;
+    padding-top: 3px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 17px;
+
+
+}
+.contact-button:hover {
+ 
+   transition: 0.3s;
+   color: #183D3D;
+   border: 2px solid #040D12;
+   background-color: #5C8374;
+   height: 35px;
+   width: 105px;
+   padding-left: 15px;
+   padding-top: 10px;
+   border-radius: 10px;
+   
+}
+.me{
+    display: inline-flex;
+    margin-top: 0px;
+}
+
+
+.name{
+    color: rgb(244, 241, 241);
+    width: 350PX;
+    
+}
+.box1{
+    display: grid;
+    grid-template-columns: 700px 600px 200px;
+}
+.search{
+    height: 28px;
+    width: 200px;
+    background-color: rgb(4, 13, 18);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+    border-radius: 10px;
+    border: none;
+}
+
+.search-bar{
+    padding-left: 700px;
+    border: none;
+    background-color: transparent;
+    width: 80%;
+    color: #183D3D;
+    outline: none;
+   
+}
+.description{
+    margin-left: 200px;
+}
+.About:hover ,.portfolio:hover ,.contact:hover {
+    color: rgb(4, 13, 18);
+    cursor: pointer;
+    transition: 0.6s;
+    
+    
+}
+.logo{
+    margin-left: 20px;
+}
+.logo{
+    margin-bottom: 2 0px;
+}
+.center-msg{
+    display: grid;
+    grid-template-columns: 100px 120px 100px ;
+    margin-top: 14px;
+}
+.box1{
+ 
+  margin-bottom: 30px;
+  position:relative;
+}
+.page2-box1{
+   color: white;
+}
+.skill1,.skill2,.skill3,.skill4{
+    border: none;
+    height: 250px;
+    width: 250px;
+    background-color: #5C8374;
+    border-radius: 20%;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+.skill1:hover ,.skill2:hover ,.skill3:hover ,.skill4:hover {
+    background-color: #93B1A6;
+    transition: 0.8s;
+    cursor:pointer;
+}
+.skill1{
+    margin-left: 190px;
+}
+.h11 h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 500px;
+    font-family: "Roboto", sans-serif;
+}
+.page2-box2,.page2-box3{
+    margin-top: 25px;
+}
+.git,.html,.css,.js,.linux{
+   height: 150px;
+   width: 150px;
+   display: flex; 
+   padding: 52px;
+   fill: rgb(10, 4, 23);
+}
+.page3 h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.page4 h1{
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.page4 h1:hover {
+    color: #C5B934;
+    transition: 0.5s;
+}
+.page5 h1:hover {
+    color: #C5B934;
+    transition: 0.5s;
+}
+.pade2heading:hover {
+    color: #C5B934;
+    transition: 0.5s;
+}
+.mail,.phone,.location{
+    border: none;
+    background-color: #C5B934;
+    width:250px;
+    padding-left: 30px;
+    padding-top: 8px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.details{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.phone{
+    width: 100px;
+    padding-left: 18px;
+}
+.location{
+   width: 150px;
+
+}
+.page4{
+   
+    background-color:#183D3D;
+    height: 400px;
+    color: white;
+}
+.phone:hover ,.location:hover ,.mail:hover {
+    background-color: #f5e318;
+    cursor: pointer;
+   transition: 0.5s;
+   color: #0d0d0f;
+   font-weight: bold;
+}
+.project{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+   width: 1400px;
+   height: 500px;
+   -webkit-user-select: none;
+   cursor: copy;
+}
+.pro1,.pro2,.pro3{
+    width: 220px;
+    height: 350px;
+    margin-top: 50px;
+    border: none;
+    background-color: #5C8374;
+    display: flex;
+    gap: 50px;
+    border-radius: 10px;
+    margin-left: 350px;
+}
+.page5 h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+}
+.page5{
+  
+    width: 1500px;
+}
+.o{
+    height: 200px;
+    padding-top: 70px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.pro1:hover,.pro3:hover ,.pro2:hover {
+    background-color: #93B1A6;
+    transition: 0.5s;
+    
+    height: 370px;
+    width: 240px;
+}
+.utube{
+    height: 100px;
+}
+.netflix,.utube{
+    height: 180px;
+    padding-top: 90px;
+    padding-left: 22px;
+    cursor: pointer;
+}
+.utube{
+   padding-top: 70px;
+}
